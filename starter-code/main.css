@@ -8,44 +8,93 @@ body {
 }
 h1, h2 {
   font-family: 'Rock Salt', cursive;
-  margin: 0;
+
 }
 img {
-
+ border: 3px dashed #00aeef;
+ padding: 10px;
+ margin-right:20px;
 }
 input {
-
+	padding: 5px;
 }
 button {
+	background-color:#6495ed;
+	border-radius: 5px;
+  	margin: 5px;
+  	padding: 5px 8px;
 
 }
-nav ul {
 
+nav ul {
+		margin-bottom:10px;
+		padding:none;
 }
 nav ul li {
-
+	display:inline-block;
+	margin: 20px auto;
+	padding-right: 40px;
 }
 .header {
-
+	background-color:#77ccee;
+    border-bottom: 1px solid #4267b1;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 .header h1 {
+	font-weight: bold;
+	display:inline-block;
+	vertical-align: top;
+  	margin: 35px, 0,0,0;
+  	font-size:50px;
 
 }
-.footer {
 
+.footer {
+	background-color: #ddd;
+	margin-top: 20px;
+	min-height: 200px;
+	padding-top: 20px;
 }
 .content {
+	 margin: 0 auto;
+	 max-width: 1024px;
+	 padding: 0 20px;
+	 width: 100%;
 
 }
 .row {
-
+ 	margin-top: 20px;
 }
 .column {
+	width:30%;
+	vertical-align: top;
+  	display: inline-block;
+  	margin-right: 20px;
 
 }
 .note {
+	background-color:#77ccee;
+	width:250px;
+	height: 250px;
 
 }
+.note, .request {
+  min-height: 180px;
+  padding: 10px 20px;
+}
+
+
 .request {
+	border: 1px solid #ddd;
+	width:250px;
+	height: 250px;
 
+	
 }
+
+/*div{
+	display:inline-block;
+	margin:5px;
+
+}*/
