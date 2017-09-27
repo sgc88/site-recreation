@@ -51,10 +51,14 @@ nav ul li {
 }
 
 .footer {
-	background-color: #ddd;
+	background-color:rgba(255, 69, 0, 0.16);
 	margin-top: 20px;
 	min-height: 200px;
 	padding-top: 20px;
+    font-size:40px;
+    text-align: center;
+    font-style: italic;
+
 }
 .content {
 	 margin: 0 auto;
